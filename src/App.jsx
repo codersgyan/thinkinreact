@@ -11,9 +11,12 @@ const PRODUCTS = [
 function App() {
     return (
         <>
+        <h1>This is from testing</h1>
             <FilterableProductTable products={PRODUCTS} />
         </>
     );
 }
 
 export default App;
+
+// This is just for testing
